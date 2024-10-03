@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #a855f7;
-  --primary-color-dark: #9333ea;
+  --primary-color: #00ff34;
+  --primary-color-dark: #000000;
   --secondary-color: #ca8a04;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
+  --text-dark: #00ff34;
+  --text-light: #fff;
   --extra-light: #faf5ff;
   --max-width: 1200px;
 }
@@ -29,7 +29,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #000000;
   z-index: 99;
 }
 
@@ -89,7 +89,8 @@ ul li a:hover {
 }
 
 .section {
-  background-color: var(--extra-light);
+  /*background-color: #000000; */
+  background-image:url("assets/bgcyber1.jpg")
 }
 
 .section__container {
